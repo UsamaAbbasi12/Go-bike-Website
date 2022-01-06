@@ -1,0 +1,224 @@
+
+@import "about";
+@import "faq";
+@import "testmoni";
+@import "career";
+@import "gallary";
+body{
+    overflow-x: hidden;
+}
+.top-menu{
+    a{
+        text-decoration: none;
+        color: rgb(94, 94, 94);
+    }
+    a:hover{
+        transition: 2s;
+        color: red;
+        border-bottom: 1px solid red;
+    }
+}
+.icons {
+    i{
+        cursor: pointer;
+        font-size: 15px;
+        &:hover{
+            transition: 1s;
+            color: red;
+        }
+    }
+}
+
+.nav-item {
+    
+    a:hover{
+        color: red;
+        background: none;
+        transition: 0.5s;
+    }
+}
+// .dropdown-menu:hover{
+
+// }
+#navbarScroll{
+    max-height:100%;
+}
+.navbar-nav{
+    .active:hover{
+        color: white !important;
+    } 
+   
+    li{
+        margin: 0 10px !important;
+    }
+    
+}
+#main{
+    width: 100%;
+    padding: 40px;
+    min-height: 120vh;
+    background-image: url('../images/cycle.jpg');
+
+    .info{
+        border-radius: 8px 8px 0px 0px !important;
+        margin-left: 30px !important;
+    }
+}
+
+
+#topServices{
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+    
+
+}
+#cycleImg{
+    
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+    margin-top: 180px !important ;
+}
+.bg-gray{
+    background-color: rgb(252, 251, 251);
+    min-height: 700px;
+    
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+
+}
+.owl-careousal{
+
+    .item1:hover{
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(117, 115, 115) 0px 5px 15px;
+        padding: 10px 40px; 
+        border-radius: 10px;
+    
+    }
+}
+
+#testmoniolas{
+    height: 100vh;
+    background: url('../images/cycle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+    
+    .item{
+        height: 300px;
+        padding: 10px 50px;
+        
+    }
+    img{
+        margin-top: 20px;
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+}
+#team{
+    background: #f0f2f5;
+    height: 120vh;
+    clip-path: polygon(0 0, 50% 19%, 100% 0, 100% 83%, 50% 100%, 0 84%);
+
+    .team-text{
+        padding: 150px 10px 5px ;
+    }
+    .team-members{
+        img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 7px solid #000000;
+            padding: 15px;
+            
+        }
+    }
+}
+.bg-pink{
+    background-color: lightcoral;
+    outline: none;
+}
+.blog{
+    h6{
+        cursor: pointer;
+        color: gray;
+        font-size: 11px;
+        &:hover{
+            color: red;
+        }
+    }
+    p{
+        color: gray;
+    }
+    .text-dark{
+        color: beige;
+    } 
+    
+}
+.bottom-careousal{
+    margin-top: 50px;
+    background-image: url('../images/cycle.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+
+    height: 300px;
+    clip-path: polygon(51% 15%, 100% 0, 100% 100%, 75% 100%, 0 100%, 0 0);
+
+    .img-container{
+        padding-top: 120px;
+    }
+}
+.dark-gray{
+    color: rgb(179, 174, 174);
+}
+.gray{
+    color: lightgray;
+}
+.s-icons {
+    i{
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 50% !important;
+        outline: none;
+        border: none !important;
+        cursor: pointer;
+    }
+    i:hover{
+        background-color: rgba(230, 38, 38, 0.767);
+        color: white;
+    }
+}
+.footer-link{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: gray;
+        font-size: 12px;
+
+    }
+    a:hover{
+        text-decoration: underline;
+        color: rgba(230, 38, 38, 0.767);
+        transition: 0.5s;
+    }
+}
+.black{
+    background-color: black !important;
+}
+.dropdown-menu{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 200px !important;
+    border-top: 5px solid crimson !important;
+}
+.active{
+    color: white !important;
+}
+@media(min-width:780px){
+    #testmoniolas{
+        .item{
+            padding: 10px 300px;
+        }
+    }
+}

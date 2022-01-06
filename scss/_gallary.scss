@@ -1,0 +1,13 @@
+.buttons{
+    button{
+        background-color: white !important;
+        color: black;
+        border: 2px solid  crimson;
+        &:hover{
+            background-color: crimson !important;
+            color: white;
+            border-color: crimson;
+        }
+    }
+    
+}

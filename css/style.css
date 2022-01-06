@@ -1,0 +1,330 @@
+#solution {
+  height: 400px;
+  padding-top: 200px !important;
+  margin-top: -150px;
+}
+#solution button {
+  background-color: lightgray;
+  width: 200px;
+  color: crimson !important;
+  font-size: 20px;
+  border: none;
+}
+#solution button:hover {
+  background-color: #f55f7d;
+  color: white !important;
+  outline: none !important;
+}
+#solution button:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.aboutUs {
+  height: 300px;
+}
+
+.form-box {
+  width: 70%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  background-color: #e4e2e0 !important;
+}
+.form-box input:focus {
+  border-color: crimson !important;
+  outline: none;
+  box-shadow: none;
+}
+.form-box select:focus {
+  box-shadow: none;
+  border-color: crimson !important;
+}
+
+.faq {
+  height: 250px;
+  background: rgba(0, 0, 0, 0.527) url("../images/cycle.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.testmoni {
+  margin-bottom: 70px;
+}
+
+.item-testimoni {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+}
+.item-testimoni strong {
+  color: #5e5e5e;
+}
+.item-testimoni img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+hr {
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.item-testimoni2 {
+  padding-top: 30px;
+  border: 1px solid #45e2e2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin-top: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.item-testimoni2 strong {
+  color: #5e5e5e;
+}
+.item-testimoni2 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+}
+
+.career p {
+  color: #756f6f;
+}
+.career i {
+  font-size: 30px;
+  color: gray;
+  margin-top: -60px;
+}
+
+.buttons button {
+  background-color: white !important;
+  color: black;
+  border: 2px solid crimson;
+}
+.buttons button:hover {
+  background-color: crimson !important;
+  color: white;
+  border-color: crimson;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.top-menu a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+.top-menu a:hover {
+  transition: 2s;
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.icons i {
+  cursor: pointer;
+  font-size: 15px;
+}
+.icons i:hover {
+  transition: 1s;
+  color: red;
+}
+
+.nav-item a:hover {
+  color: red;
+  background: none;
+  transition: 0.5s;
+}
+
+#navbarScroll {
+  max-height: 100%;
+}
+
+.navbar-nav .active:hover {
+  color: white !important;
+}
+.navbar-nav li {
+  margin: 0 10px !important;
+}
+
+#main {
+  width: 100%;
+  padding: 40px;
+  min-height: 120vh;
+  background-image: url("../images/cycle.jpg");
+}
+#main .info {
+  border-radius: 8px 8px 0px 0px !important;
+  margin-left: 30px !important;
+}
+
+#topServices {
+  clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+}
+
+#cycleImg {
+  clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+  margin-top: 180px !important;
+}
+
+.bg-gray {
+  background-color: #fcfbfb;
+  min-height: 700px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+}
+
+.owl-careousal .item1:hover {
+  background-color: white;
+  box-shadow: #757373 0px 5px 15px;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+#testmoniolas {
+  height: 100vh;
+  background: url("../images/cycle.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(50% 0%, 100% 0, 100% 79%, 100% 79%, 50% 100%, 0 83%, 0 0);
+}
+#testmoniolas .item {
+  height: 300px;
+  padding: 10px 50px;
+}
+#testmoniolas img {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+#team {
+  background: #f0f2f5;
+  height: 120vh;
+  clip-path: polygon(0 0, 50% 19%, 100% 0, 100% 83%, 50% 100%, 0 84%);
+}
+#team .team-text {
+  padding: 150px 10px 5px;
+}
+#team .team-members img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 7px solid #000000;
+  padding: 15px;
+}
+
+.bg-pink {
+  background-color: lightcoral;
+  outline: none;
+}
+
+.blog h6 {
+  cursor: pointer;
+  color: gray;
+  font-size: 11px;
+}
+.blog h6:hover {
+  color: red;
+}
+.blog p {
+  color: gray;
+}
+.blog .text-dark {
+  color: beige;
+}
+
+.bottom-careousal {
+  margin-top: 50px;
+  background-image: url("../images/cycle.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  height: 300px;
+  clip-path: polygon(51% 15%, 100% 0, 100% 100%, 75% 100%, 0 100%, 0 0);
+}
+.bottom-careousal .img-container {
+  padding-top: 120px;
+}
+
+.dark-gray {
+  color: #b3aeae;
+}
+
+.gray {
+  color: lightgray;
+}
+
+.s-icons i {
+  color: black;
+  background-color: white;
+  border-radius: 50% !important;
+  outline: none;
+  border: none !important;
+  cursor: pointer;
+}
+.s-icons i:hover {
+  background-color: rgba(230, 38, 38, 0.767);
+  color: white;
+}
+
+.footer-link {
+  list-style: none;
+}
+.footer-link a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+}
+.footer-link a:hover {
+  text-decoration: underline;
+  color: rgba(230, 38, 38, 0.767);
+  transition: 0.5s;
+}
+
+.black {
+  background-color: black !important;
+}
+
+.dropdown-menu {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 200px !important;
+  border-top: 5px solid crimson !important;
+}
+
+.active {
+  color: white !important;
+}
+
+@media (min-width: 780px) {
+  #testmoniolas .item {
+    padding: 10px 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

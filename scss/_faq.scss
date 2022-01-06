@@ -1,0 +1,26 @@
+.form-box {
+    width: 70%;
+    
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    background-color: rgb(228, 226, 224) !important;
+
+    input:focus{
+        border-color: crimson !important ;
+        outline: none;
+        box-shadow: none;
+    }
+    select:focus{
+        box-shadow: none;
+        border-color: crimson !important;
+    }
+}
+.faq{
+    height: 250px;
+    background: rgba(0, 0, 0, 0.527) url('../images/cycle.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
